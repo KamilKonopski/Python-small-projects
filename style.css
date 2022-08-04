@@ -16,6 +16,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .wrapper {
@@ -65,7 +66,6 @@ body {
 }
 
 .form__application input {
-    /* background: url('./images/icon-error.svg') no-repeat right;  error icon dodać w JS */
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 15px;
@@ -115,6 +115,42 @@ body {
 .terms span {
     color: var(--red);
     font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+    .wrapper {
+        background: url(./images/bg-intro-desktop.png), var(--red);
+        display: flex;
+        margin-top: 150px;
+        padding: 100px 0;
+    }
+
+    .text {
+        width: 50%;
+        text-align: left;
+    }
+
+    .text h1 {
+        font-size: 36px;
+        padding: 50px 175px 20px 85px;
+    }
+
+    .text p {
+        padding: 0 70px;
+    }
+
+    .form {
+        width: 40%;
+        margin: 0 200px 0 100px;
+    }
+
+    .form__application input {
+        padding: 15px 180px 15px 40px;
+    }
+
+    .form__application button {
+        padding: 15px 110px;
+    }
 }
 
 
