@@ -15,7 +15,100 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    max-width: 1440px;
 }
+
+.wrapper {
+    background: url(./images/bg-intro-mobile.png), var(--red);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+
+.text {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.text h1 {
+    color: #fff;
+    font-size: 24px;
+    padding: 0 30px 25px;
+}
+
+.text p {
+    color: #fff;
+    padding: 0 30px 60px;
+}
+
+.free-trial {
+    background-color: var(--blue);
+    border-radius: 10px;
+    color: #fff;
+    margin: 0 25px 30px;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.free-trial span {
+    font-weight: 500;
+}
+
+.form__application {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px;
+    padding-top: 25px;
+}
+
+.form__application input {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px 85px 15px 15px;
+}
+
+.form__application input:focus {
+    outline: none
+}
+
+.form__application label {
+    color: var(--red);
+    display: block;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 500;
+    margin: -10px 0 10px;
+    padding-left: 125px;
+}
+
+.form__application button {
+    background-color: var(--green);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    margin: 10px 15px;
+    padding: 15px 50px;
+    text-transform: uppercase;
+}
+
+.terms {
+    color: var(--grayishBlue);
+    font-size: 10px;
+    font-weight: 500;
+    margin: 0 48px 20px;
+    text-align: center;
+}
+
+.terms span {
+    color: var(--red);
+    font-weight: 700;
+}
+
 
 
 

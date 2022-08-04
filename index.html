@@ -21,34 +21,65 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<div class="text">
-			<h1>Learn to code by watching others</h1>
-			<p>
-				See how experienced developers solve problems in real-time. Watching
-				scripted tutorials is great, but understanding how developers think is
-				invaluable.
-			</p>
-		</div>
-		<div class="form">
-			<p><span>Try it free 7 days</span> then $20/mo.thereafter</p>
-			<form class="form__application">
-				<input id="first-name" type="text" placeholder="First Name" />
-				<input id="last-name" type="text" placeholder="Last Name" />
-				<input id="email-address" type="email" placeholder="Email Address" />
-				<input id="password" type="password" placeholder="Password" />
-				<button id="submit" type="submit">Claim your free trail</button>
-			</form>
-			<p>
-				By clicking the button, you are agreeing to our
-				<span>Terms and Services</span>
-			</p>
+		<div class="wrapper">
+			<div class="text">
+				<h1>Learn to code by watching others</h1>
+				<p>
+					See how experienced developers solve problems in real-time. Watching
+					scripted tutorials is great, but understanding how developers think is
+					invaluable.
+				</p>
+			</div>
+			<div class="form">
+				<p class="free-trial">
+					<span>Try it free 7 days</span> then $20/mo.thereafter
+				</p>
+				<form class="form__application">
+					<input
+						id="first-name"
+						name="first-name"
+						type="text"
+						placeholder="First Name"
+					/>
+					<label for="first-name"></label>
+					<input
+						id="last-name"
+						name="last-name"
+						type="text"
+						placeholder="Last Name"
+					/>
+					<label for="last-name"></label>
+					<input
+						id="email-address"
+						name="email-address"
+						type="email"
+						placeholder="Email Address"
+					/>
+					<label for="email-address"></label>
+					<input
+						id="password"
+						name="password"
+						type="password"
+						placeholder="Password"
+					/>
+					<label for="password"></label>
+					<button id="submit" type="submit">Claim your free trail</button>
+					<p class="terms">
+						By clicking the button, you are agreeing to our
+						<span>Terms and Services</span>
+					</p>
+				</form>
+			</div>
 		</div>
 		<footer>
 			<p class="attribution">
 				Challenge by
 				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
 					>Frontend Mentor</a
-				>. Coded by <a href="#">Your Name Here</a>.
+				>. Coded by
+				<a href="https://www.frontendmentor.io/profile/KamilKonopski"
+					>Kamil Konopski</a
+				>.
 			</p>
 		</footer>
 		<script src="./dist/main.js"></script>
