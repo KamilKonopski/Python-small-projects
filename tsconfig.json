@@ -1,7 +1,0 @@
-{
-	"compilerOptions": {
-		"rootDir": "./ts",
-		"outDir": "./dist",
-		"target": "ES2015"
-	}
-}
