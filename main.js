@@ -29,7 +29,6 @@ const sendForm = event => {
         passwordInput.classList.add('error-icon');
         return
     }
-      console.log('wysłano formularz')
 }
 
 submitButton.addEventListener('click', sendForm);
