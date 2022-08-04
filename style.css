@@ -65,17 +65,24 @@ body {
 }
 
 .form__application input {
+    /* background: url('./images/icon-error.svg') no-repeat right;  error icon dodać w JS */
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 15px;
     padding: 15px 85px 15px 15px;
 }
 
+.form__application input.error-icon {
+    border: 2px solid var(--red);
+    color: var(--red);
+    background: url('./images/icon-error.svg') no-repeat right;
+}
+
 .form__application input:focus {
     outline: none
 }
 
-.form__application label {
+.form__application .error {
     color: var(--red);
     display: block;
     font-size: 10px;
@@ -90,6 +97,7 @@ body {
     border: none;
     border-radius: 5px;
     color: #fff;
+    cursor: pointer;
     font-weight: 600;
     margin: 10px 15px;
     padding: 15px 50px;
