@@ -76,4 +76,5 @@ def main():
             print("YOU LOSE!")
             is_running = False
 
-main()
+if __name__ == "__main__":
+    main()
